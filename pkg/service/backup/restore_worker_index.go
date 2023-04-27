@@ -18,7 +18,7 @@ import (
 )
 
 // restoreHost represents host that can be used for restoring files.
-// If set, OngoingRunProgress represents unfinished RestoreRunProgress created in previous run.
+// If set, OngoingRunProgress represents unfinished RestoreRunProgress created in previous run1.
 type restoreHost struct {
 	Host               string
 	OngoingRunProgress *RestoreRunProgress
