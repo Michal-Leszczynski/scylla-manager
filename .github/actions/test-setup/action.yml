@@ -27,6 +27,6 @@ runs:
       shell: bash
 
     - name: Start dev env
-      if: inputs.start-dev-env
+      if: inputs.start-dev-env == 'true'
       run: make start-dev-env
       shell: bash
