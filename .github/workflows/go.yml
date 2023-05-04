@@ -18,7 +18,7 @@ jobs:
       - name: Setup testing dependencies
         uses: ./.github/actions/test-setup
         with:
-          start-dev-env: false
+          start-dev-env: 'false'
 
       - name: Run checks
         run: make check
